@@ -1,0 +1,238 @@
+INFO  00:00:49,832 | james.pop3server | Id='-574909672' User='' Connection established from 192.168.239.1
+INFO  00:00:49,881 | james.pop3server | Id='-574909672' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:00:50,827 | org.apache.james.container.spring.context.JamesServerApplicationContext | Closing org.apache.james.container.spring.context.JamesServerApplicationContext@751dcabc: startup date [Thu Aug 02 22:31:24 CST 2018]; root of context hierarchy
+INFO  00:00:50,888 | james.imapserver | Dispose IMAP Service
+INFO  00:00:50,900 | james.imapserver | Dispose IMAP Service done
+INFO  00:00:50,902 | james.pop3server | Dispose POP3 Service
+INFO  00:00:50,908 | james.pop3server | Dispose POP3 Service done
+INFO  00:00:50,910 | james.lmtpserver | Dispose LMTP Service
+INFO  00:00:50,913 | james.lmtpserver | Dispose LMTP Service done
+INFO  00:00:50,913 | james.smtpserver | Dispose SMTP Service
+INFO  00:00:50,929 | james.smtpserver | Dispose SMTP Service done
+INFO  00:00:50,930 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler dispose...
+INFO  00:00:50,934 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler thread shutdown completed.
+INFO  00:00:50,956 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-2
+INFO  00:00:50,962 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-1
+INFO  00:12:10,419 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@31a5c39e: startup date [Fri Aug 03 00:12:10 CST 2018]; root of context hierarchy
+INFO  00:12:14,505 | org.apache.james.container.spring.context.JamesServerApplicationContext | Bean 'logprovider' of type [class org.apache.james.container.spring.lifecycle.LogProviderImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  00:12:14,926 | james.mailrepositorystore | JamesMailStore init...
+INFO  00:12:14,935 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories with key file
+INFO  00:12:14,936 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories with key db
+INFO  00:12:14,936 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories with key dbfile
+INFO  00:12:14,938 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories with key mbox
+INFO  00:12:15,088 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  00:12:15,097 | james.dnsservice | Adding autodiscovered server 172.20.10.1
+INFO  00:12:15,098 | james.dnsservice | DNS Server is: 172.20.10.1
+INFO  00:12:15,108 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  00:12:27,021 | james.domainlist | Set autodetect to: true
+INFO  00:12:27,023 | james.domainlist | Set autodetectIP to: true
+ERROR 00:12:28,287 | org.apache.activemq.broker.BrokerService | Memory Usage for the Broker (1024 mb) is more than the maximum available for the JVM: 455 mb - resetting to 70% of maximum available: 318 mb
+WARN  00:12:28,290 | org.apache.activemq.broker.BrokerService | Store limit is 102400 mb (current store usage is 0 mb). The data directory: F:\james\james-server-app-3.0.1\bin\KahaDB only has 98819 mb of usable space - resetting to maximum available disk space: 98819 mb
+WARN  00:12:28,677 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  00:12:28,787 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:28,807 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  00:12:28,816 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  00:12:28,823 | james.mailprocessor | Mailet Null instantiated.
+INFO  00:12:28,829 | james.mailprocessor | Matcher HasMailAttribute=spamChecked instantiated.
+INFO  00:12:28,837 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:28,839 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:28,858 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  00:12:28,866 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  00:12:28,867 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:28,869 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:28,871 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:29,247 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,281 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:29,291 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  00:12:29,294 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:29,295 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  00:12:29,298 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:29,299 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  00:12:29,300 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:29,300 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  00:12:29,302 | james.mailrepositorystore | added repository: file://var/mail/error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  00:12:29,303 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:29,355 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  00:12:29,364 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  00:12:29,365 | james.mailprocessor | Matcher HasMailAttribute=org.apache.james.SMIMECheckSignature instantiated.
+INFO  00:12:29,366 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  00:12:29,368 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,389 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  00:12:29,395 | james.mailprocessor | Matcher SenderIsLocal instantiated.
+INFO  00:12:29,494 | james.mailprocessor | Mailet ToSenderFolder instantiated.
+INFO  00:12:29,500 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  00:12:29,532 | james.mailprocessor | Mailet Sieve instantiated.
+INFO  00:12:29,533 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  00:12:29,539 | james.mailprocessor | Mailet AddDeliveredToHeader instantiated.
+INFO  00:12:29,540 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  00:12:29,551 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  00:12:29,558 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  00:12:29,559 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:29,607 | james.mailetcontext | Authorized addresses: [127.0.0.1/255.255.255.255]
+INFO  00:12:29,607 | james.mailprocessor | Matcher RemoteAddrNotInNetwork=127.0.0.1 instantiated.
+INFO  00:12:29,609 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:29,610 | james.mailprocessor | Matcher All instantiated.
+WARN  00:12:29,630 | org.apache.james.transport.mailets.remoteDelivery.DelaysAndMaxRetry | maxRetries is larger than total number of attempts specified. Increasing last delayTime with 22 attempts 
+WARN  00:12:29,630 | org.apache.james.transport.mailets.remoteDelivery.DelaysAndMaxRetry | Delay of 500000 msecs is now attempted: 1 times
+INFO  00:12:29,707 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  00:12:29,901 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,908 | james.mailprocessor | Mailet MetricsMailet instantiated.
+INFO  00:12:29,910 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,928 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  00:12:29,931 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,935 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:29,937 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+INFO  00:12:29,938 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:29,939 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+INFO  00:12:29,941 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:29,943 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\over-quota-error
+INFO  00:12:29,944 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:29,945 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\over-quota-error
+INFO  00:12:29,946 | james.mailrepositorystore | added repository: file://var/mail/over-quota-error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  00:12:29,947 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:29,997 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,000 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:30,003 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  00:12:30,005 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:30,006 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  00:12:30,011 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:30,012 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  00:12:30,013 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:30,013 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  00:12:30,016 | james.mailrepositorystore | added repository: file://var/mail/spam/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  00:12:30,018 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:30,051 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,055 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  00:12:30,056 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  00:12:30,060 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  00:12:30,062 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,064 | james.mailprocessor | Mailet Null instantiated.
+INFO  00:12:30,119 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,123 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:30,125 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  00:12:30,126 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:30,127 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  00:12:30,128 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:30,130 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  00:12:30,132 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:30,132 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  00:12:30,134 | james.mailrepositorystore | added repository: file://var/mail/address-error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  00:12:30,134 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:30,158 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,162 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:30,164 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  00:12:30,166 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:30,166 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  00:12:30,169 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  00:12:30,170 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  00:12:30,172 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  00:12:30,173 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  00:12:30,174 | james.mailrepositorystore | added repository: file://var/mail/relay-denied/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  00:12:30,175 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:30,239 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,268 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  00:12:30,307 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  00:12:30,307 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  00:12:30,313 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  00:12:30,315 | james.mailspooler | Queue=MailQueue:spool
+INFO  00:12:30,316 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  00:12:30,330 | james.mailspooler | Queue=MailQueue:spool
+INFO  00:12:30,391 | james.fetchmail | FetchMail Disabled
+INFO  00:12:30,457 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  00:12:30,459 | james.smtpserver | SMTP Service is running on: Accidentaly
+INFO  00:12:30,460 | james.smtpserver | SMTP Service handler hello name is: Accidentaly
+INFO  00:12:30,461 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  00:12:30,462 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  00:12:30,464 | james.smtpserver | This SMTP server does not require authentication.
+INFO  00:12:30,465 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  00:12:30,758 | james.smtpserver | Init SMTP Service done
+INFO  00:12:30,797 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  00:12:30,816 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  00:12:30,816 | james.pop3server | POP3 Service is running on: Accidentaly
+INFO  00:12:30,817 | james.pop3server | POP3 Service handler hello name is: Accidentaly
+INFO  00:12:30,818 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  00:12:30,819 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  00:12:30,907 | james.pop3server | Init POP3 Service done
+INFO  00:12:31,180 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  00:12:31,181 | james.imapserver | IMAP Service is running on: Accidentaly
+INFO  00:12:31,183 | james.imapserver | IMAP Service handler hello name is: Accidentaly
+INFO  00:12:31,184 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  00:12:31,185 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  00:12:31,212 | james.imapserver | Init IMAP Service done
+INFO  00:12:32,792 | org.apache.james.app.spring.JamesAppSpringMain | Apache James Server is successfully started in 22586 milliseconds.
+INFO  00:14:30,574 | james.pop3server | Id='-1206415922' User='' Connection established from 192.168.239.1
+INFO  00:14:30,867 | james.pop3server | Id='-1206415922' User='root@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:14:31,814 | james.pop3server | Id='-291348323' User='' Connection established from 192.168.239.1
+INFO  00:14:31,857 | james.pop3server | Id='-291348323' User='root@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:14:40,967 | james.smtpserver | Id='407888955' User='' Connection established from 192.168.239.1
+INFO  00:14:50,162 | james.smtpserver | Id='407888955' User='' Successfully spooled mail Mail1533226490081-10693ba9-8e5c-4078-80f0-e7ae8b54c74b from root@qinxf.com on Accidentaly/192.168.239.1 for [admin@qinxf.com]
+INFO  00:14:50,171 | james.smtpserver | Id='407888955' User='' Connection closed for 192.168.239.1
+INFO  00:14:50,172 | james.smtpserver | Id='407888955' User='' Connection closed for 192.168.239.1
+INFO  00:14:50,884 | james.mailetcontext | Local delivery with ToSenderFolder mailet for mail Mail1533226490081-10693ba9-8e5c-4078-80f0-e7ae8b54c74b with sender root@qinxf.com in folder Sent
+INFO  00:14:50,945 | org.apache.james.transport.mailets.delivery.SimpleMailStore | Local delivered mail Mail1533226490081-10693ba9-8e5c-4078-80f0-e7ae8b54c74b successfully from <root@qinxf.com> to <admin@qinxf.com> in folder INBOX
+INFO  00:14:53,833 | james.pop3server | Id='301672507' User='' Connection established from 192.168.239.1
+INFO  00:14:54,288 | james.pop3server | Id='301672507' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:15:05,303 | james.smtpserver | Id='-1713474223' User='' Connection established from 192.168.239.1
+INFO  00:15:05,330 | james.smtpserver | Id='-1713474223' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:15:05,338 | james.smtpserver | Id='-1713474223' User='' Connection closed for 192.168.239.1
+INFO  00:15:05,339 | james.smtpserver | Id='-1713474223' User='' Connection closed for 192.168.239.1
+INFO  00:15:31,890 | james.smtpserver | Id='-1566097248' User='' Connection established from 192.168.239.1
+INFO  00:15:31,911 | james.smtpserver | Id='-1566097248' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:15:31,916 | james.smtpserver | Id='-1566097248' User='' Connection closed for 192.168.239.1
+INFO  00:15:31,917 | james.smtpserver | Id='-1566097248' User='' Connection closed for 192.168.239.1
+INFO  00:15:54,393 | james.pop3server | Id='-1437303540' User='' Connection established from 192.168.239.1
+INFO  00:15:54,419 | james.pop3server | Id='-1437303540' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:16:40,252 | james.smtpserver | Id='-2008704641' User='' Connection established from 192.168.239.1
+INFO  00:16:49,357 | james.smtpserver | Id='-2008704641' User='' Successfully spooled mail Mail1533226609298-a83e304a-dc56-4ff8-b9cb-381872d729ab from admin@qinxf.com on Accidentaly/192.168.239.1 for [root@qinxf.com]
+INFO  00:16:49,362 | james.smtpserver | Id='-2008704641' User='' Connection closed for 192.168.239.1
+INFO  00:16:49,362 | james.smtpserver | Id='-2008704641' User='' Connection closed for 192.168.239.1
+INFO  00:16:49,407 | james.mailetcontext | Local delivery with ToSenderFolder mailet for mail Mail1533226609298-a83e304a-dc56-4ff8-b9cb-381872d729ab with sender admin@qinxf.com in folder Sent
+INFO  00:16:49,495 | org.apache.james.transport.mailets.delivery.SimpleMailStore | Local delivered mail Mail1533226609298-a83e304a-dc56-4ff8-b9cb-381872d729ab successfully from <admin@qinxf.com> to <root@qinxf.com> in folder INBOX
+INFO  00:16:52,775 | james.pop3server | Id='1406650013' User='' Connection established from 192.168.239.1
+INFO  00:16:52,810 | james.pop3server | Id='1406650013' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:16:55,036 | james.pop3server | Id='129963881' User='' Connection established from 192.168.239.1
+INFO  00:16:55,266 | james.pop3server | Id='129963881' User='root@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:17:22,170 | james.smtpserver | Id='1677892677' User='' Connection established from 192.168.239.1
+INFO  00:17:31,272 | james.smtpserver | Id='1677892677' User='' Successfully spooled mail Mail1533226651228-b3053ade-a335-417f-8ad9-9a56781038ce from root@qinxf.com on Accidentaly/192.168.239.1 for [admin@qinxf.com]
+INFO  00:17:31,280 | james.smtpserver | Id='1677892677' User='' Connection closed for 192.168.239.1
+INFO  00:17:31,280 | james.smtpserver | Id='1677892677' User='' Connection closed for 192.168.239.1
+INFO  00:17:31,351 | james.mailetcontext | Local delivery with ToSenderFolder mailet for mail Mail1533226651228-b3053ade-a335-417f-8ad9-9a56781038ce with sender root@qinxf.com in folder Sent
+INFO  00:17:31,428 | org.apache.james.transport.mailets.delivery.SimpleMailStore | Local delivered mail Mail1533226651228-b3053ade-a335-417f-8ad9-9a56781038ce successfully from <root@qinxf.com> to <admin@qinxf.com> in folder INBOX
+INFO  00:17:46,318 | james.pop3server | Id='1593994307' User='' Connection established from 192.168.239.1
+INFO  00:17:46,532 | james.pop3server | Id='1593994307' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:18:46,612 | james.pop3server | Id='613900018' User='' Connection established from 192.168.239.1
+INFO  00:18:46,646 | james.pop3server | Id='613900018' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:19:46,643 | james.pop3server | Id='-1823462994' User='' Connection established from 192.168.239.1
+INFO  00:19:46,687 | james.pop3server | Id='-1823462994' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:20:46,692 | james.pop3server | Id='183639203' User='' Connection established from 192.168.239.1
+INFO  00:20:46,739 | james.pop3server | Id='183639203' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:21:37,389 | james.smtpserver | Id='1104313910' User='' Connection established from 192.168.239.1
+INFO  00:21:37,402 | james.smtpserver | Id='1104313910' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:21:37,405 | james.smtpserver | Id='1104313910' User='' Connection closed for 192.168.239.1
+INFO  00:21:37,405 | james.smtpserver | Id='1104313910' User='' Connection closed for 192.168.239.1
+INFO  00:21:46,736 | james.pop3server | Id='-1598367077' User='' Connection established from 192.168.239.1
+INFO  00:21:46,785 | james.pop3server | Id='-1598367077' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:21:56,274 | james.smtpserver | Id='-473321647' User='' Connection established from 192.168.239.1
+INFO  00:21:56,284 | james.smtpserver | Id='-473321647' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:21:56,286 | james.smtpserver | Id='-473321647' User='' Connection closed for 192.168.239.1
+INFO  00:21:56,287 | james.smtpserver | Id='-473321647' User='' Connection closed for 192.168.239.1
+INFO  00:22:46,786 | james.pop3server | Id='394817779' User='' Connection established from 192.168.239.1
+INFO  00:22:46,810 | james.pop3server | Id='394817779' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:23:46,815 | james.pop3server | Id='989463921' User='' Connection established from 192.168.239.1
+INFO  00:23:46,845 | james.pop3server | Id='989463921' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:24:46,508 | james.smtpserver | Id='775673610' User='' Connection established from 192.168.239.1
+INFO  00:24:46,521 | james.smtpserver | Id='775673610' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:24:46,524 | james.smtpserver | Id='775673610' User='' Connection closed for 192.168.239.1
+INFO  00:24:46,526 | james.smtpserver | Id='775673610' User='' Connection closed for 192.168.239.1
+INFO  00:24:46,858 | james.imapserver | ID=1531335857 Connection established from 192.168.239.1
+INFO  00:24:47,371 | james.imapserver | ID=1531335857 Connection closed for 192.168.239.1
+INFO  00:25:46,861 | james.pop3server | Id='-1647629096' User='' Connection established from 192.168.239.1
+INFO  00:25:46,887 | james.pop3server | Id='-1647629096' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:26:46,875 | james.pop3server | Id='143975404' User='' Connection established from 192.168.239.1
+INFO  00:26:46,899 | james.pop3server | Id='143975404' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:27:46,893 | james.pop3server | Id='-710823103' User='' Connection established from 192.168.239.1
+INFO  00:27:46,919 | james.pop3server | Id='-710823103' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:28:46,922 | james.pop3server | Id='-121307844' User='' Connection established from 192.168.239.1
+INFO  00:28:46,959 | james.pop3server | Id='-121307844' User='admin@qinxf.com' Connection closed for 192.168.239.1
+INFO  00:29:46,955 | james.pop3server | Id='-2117347892' User='' Connection established from 192.168.239.1
+INFO  00:29:46,988 | james.pop3server | Id='-2117347892' User='admin@qinxf.com' Connection closed for 192.168.239.1

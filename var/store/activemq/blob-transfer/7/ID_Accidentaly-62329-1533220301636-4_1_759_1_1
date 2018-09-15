@@ -1,0 +1,38 @@
+Received: from Accidentaly (EHLO Accidentaly) ([192.168.239.1])
+          by Accidentaly (JAMES SMTP Server ) with ESMTP ID 901928184
+          for <admin@qinxf.com>;
+          Thu, 02 Aug 2018 23:34:48 +0800 (CST)
+Date: Thu, 2 Aug 2018 23:34:39 +0800
+From: "root@qinxf.com" <root@qinxf.com>
+To: admin <admin@qinxf.com>
+Subject: 11111111
+X-Priority: 3
+X-Has-Attach: no
+X-Mailer: Foxmail 7.2.9.156[cn]
+Mime-Version: 1.0
+Message-ID: <201808022334398035101@qinxf.com>
+Content-Type: multipart/alternative;
+	boundary="----=_001_NextPart060471362464_=----"
+
+This is a multi-part message in MIME format.
+
+------=_001_NextPart060471362464_=----
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: base64
+
+DQoxMTExMTExMTExMTENCnJvb3RAcWlueGYuY29tDQo=
+
+------=_001_NextPart060471362464_=----
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charse=
+t=3Dus-ascii"><style>body { line-height: 1.5; }body { font-size: 10.5pt; f=
+ont-family: 'Microsoft YaHei UI'; color: rgb(0, 0, 0); line-height: 1.5; }=
+</style></head><body>=0A<div><span></span><br></div>=0A<div>111111111111</=
+div>=0A<div><span><div style=3D"MARGIN: 10px; FONT-FAMILY: verdana; FONT-S=
+IZE: 10pt"><div>root@qinxf.com</div></div></span></div>=0A</body></html>
+------=_001_NextPart060471362464_=------
+

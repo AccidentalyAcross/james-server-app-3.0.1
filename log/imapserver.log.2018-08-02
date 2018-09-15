@@ -1,0 +1,30 @@
+INFO  21:40:38,898 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  21:40:38,899 | james.imapserver | IMAP Service is running on: Accidentaly
+INFO  21:40:38,902 | james.imapserver | IMAP Service handler hello name is: Accidentaly
+INFO  21:40:38,904 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  21:40:38,905 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  21:40:38,933 | james.imapserver | Init IMAP Service done
+INFO  21:50:33,774 | james.imapserver | Dispose IMAP Service
+INFO  21:50:33,787 | james.imapserver | Dispose IMAP Service done
+INFO  22:19:59,055 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  22:19:59,056 | james.imapserver | IMAP Service is running on: Accidentaly
+INFO  22:19:59,065 | james.imapserver | IMAP Service handler hello name is: Accidentaly
+INFO  22:19:59,067 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:19:59,069 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:19:59,100 | james.imapserver | Init IMAP Service done
+INFO  22:20:34,838 | james.imapserver | Dispose IMAP Service
+INFO  22:20:34,847 | james.imapserver | Dispose IMAP Service done
+INFO  22:21:18,069 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  22:21:18,070 | james.imapserver | IMAP Service is running on: Accidentaly
+INFO  22:21:18,072 | james.imapserver | IMAP Service handler hello name is: Accidentaly
+INFO  22:21:18,072 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:21:18,073 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:21:18,101 | james.imapserver | Init IMAP Service done
+INFO  22:21:25,634 | james.imapserver | Dispose IMAP Service
+INFO  22:21:25,652 | james.imapserver | Dispose IMAP Service done
+INFO  22:31:45,354 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  22:31:45,355 | james.imapserver | IMAP Service is running on: Accidentaly
+INFO  22:31:45,355 | james.imapserver | IMAP Service handler hello name is: Accidentaly
+INFO  22:31:45,356 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  22:31:45,356 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  22:31:45,382 | james.imapserver | Init IMAP Service done

@@ -1,0 +1,16 @@
+INFO  13:31:01,677 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  13:31:01,677 | james.pop3server | POP3 Service is running on: Accidentaly
+INFO  13:31:01,677 | james.pop3server | POP3 Service handler hello name is: Accidentaly
+INFO  13:31:01,677 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  13:31:01,677 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  13:31:01,771 | james.pop3server | Init POP3 Service done
+INFO  14:32:37,693 | james.pop3server | Id='-549121896' User='' Connection established from 127.0.0.1
+INFO  14:32:37,810 | james.pop3server | Id='1947070028' User='' Connection established from 127.0.0.1
+INFO  14:32:37,814 | james.pop3server | Id='-549121896' User='qnm123456@mdkf.com' Connection closed for 127.0.0.1
+INFO  14:32:37,987 | james.pop3server | Id='1341518137' User='' Connection established from 127.0.0.1
+INFO  14:32:37,996 | james.pop3server | Id='1341518137' User='qwe123456@mdfk.com' Connection closed for 127.0.0.1
+INFO  14:32:37,997 | james.pop3server | Id='177696873' User='' Connection established from 127.0.0.1
+INFO  14:32:39,100 | james.pop3server | Id='177696873' User='qwe123456' Connection closed for 127.0.0.1
+INFO  14:32:39,100 | james.pop3server | Id='1947070028' User='qnm123456' Connection closed for 127.0.0.1
+INFO  14:43:49,423 | james.pop3server | Dispose POP3 Service
+INFO  14:43:49,429 | james.pop3server | Dispose POP3 Service done

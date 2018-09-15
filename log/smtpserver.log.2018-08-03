@@ -1,0 +1,42 @@
+INFO  00:00:50,913 | james.smtpserver | Dispose SMTP Service
+INFO  00:00:50,929 | james.smtpserver | Dispose SMTP Service done
+INFO  00:12:30,457 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  00:12:30,459 | james.smtpserver | SMTP Service is running on: Accidentaly
+INFO  00:12:30,460 | james.smtpserver | SMTP Service handler hello name is: Accidentaly
+INFO  00:12:30,461 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  00:12:30,462 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  00:12:30,464 | james.smtpserver | This SMTP server does not require authentication.
+INFO  00:12:30,465 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  00:12:30,758 | james.smtpserver | Init SMTP Service done
+INFO  00:14:40,967 | james.smtpserver | Id='407888955' User='' Connection established from 192.168.239.1
+INFO  00:14:50,162 | james.smtpserver | Id='407888955' User='' Successfully spooled mail Mail1533226490081-10693ba9-8e5c-4078-80f0-e7ae8b54c74b from root@qinxf.com on Accidentaly/192.168.239.1 for [admin@qinxf.com]
+INFO  00:14:50,171 | james.smtpserver | Id='407888955' User='' Connection closed for 192.168.239.1
+INFO  00:14:50,172 | james.smtpserver | Id='407888955' User='' Connection closed for 192.168.239.1
+INFO  00:15:05,303 | james.smtpserver | Id='-1713474223' User='' Connection established from 192.168.239.1
+INFO  00:15:05,330 | james.smtpserver | Id='-1713474223' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:15:05,338 | james.smtpserver | Id='-1713474223' User='' Connection closed for 192.168.239.1
+INFO  00:15:05,339 | james.smtpserver | Id='-1713474223' User='' Connection closed for 192.168.239.1
+INFO  00:15:31,890 | james.smtpserver | Id='-1566097248' User='' Connection established from 192.168.239.1
+INFO  00:15:31,911 | james.smtpserver | Id='-1566097248' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:15:31,916 | james.smtpserver | Id='-1566097248' User='' Connection closed for 192.168.239.1
+INFO  00:15:31,917 | james.smtpserver | Id='-1566097248' User='' Connection closed for 192.168.239.1
+INFO  00:16:40,252 | james.smtpserver | Id='-2008704641' User='' Connection established from 192.168.239.1
+INFO  00:16:49,357 | james.smtpserver | Id='-2008704641' User='' Successfully spooled mail Mail1533226609298-a83e304a-dc56-4ff8-b9cb-381872d729ab from admin@qinxf.com on Accidentaly/192.168.239.1 for [root@qinxf.com]
+INFO  00:16:49,362 | james.smtpserver | Id='-2008704641' User='' Connection closed for 192.168.239.1
+INFO  00:16:49,362 | james.smtpserver | Id='-2008704641' User='' Connection closed for 192.168.239.1
+INFO  00:17:22,170 | james.smtpserver | Id='1677892677' User='' Connection established from 192.168.239.1
+INFO  00:17:31,272 | james.smtpserver | Id='1677892677' User='' Successfully spooled mail Mail1533226651228-b3053ade-a335-417f-8ad9-9a56781038ce from root@qinxf.com on Accidentaly/192.168.239.1 for [admin@qinxf.com]
+INFO  00:17:31,280 | james.smtpserver | Id='1677892677' User='' Connection closed for 192.168.239.1
+INFO  00:17:31,280 | james.smtpserver | Id='1677892677' User='' Connection closed for 192.168.239.1
+INFO  00:21:37,389 | james.smtpserver | Id='1104313910' User='' Connection established from 192.168.239.1
+INFO  00:21:37,402 | james.smtpserver | Id='1104313910' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:21:37,405 | james.smtpserver | Id='1104313910' User='' Connection closed for 192.168.239.1
+INFO  00:21:37,405 | james.smtpserver | Id='1104313910' User='' Connection closed for 192.168.239.1
+INFO  00:21:56,274 | james.smtpserver | Id='-473321647' User='' Connection established from 192.168.239.1
+INFO  00:21:56,284 | james.smtpserver | Id='-473321647' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:21:56,286 | james.smtpserver | Id='-473321647' User='' Connection closed for 192.168.239.1
+INFO  00:21:56,287 | james.smtpserver | Id='-473321647' User='' Connection closed for 192.168.239.1
+INFO  00:24:46,508 | james.smtpserver | Id='775673610' User='' Connection established from 192.168.239.1
+INFO  00:24:46,521 | james.smtpserver | Id='775673610' User='' org.apache.james.smtpserver.AuthRequiredToRelayRcptHook: result=2 (DENY)
+INFO  00:24:46,524 | james.smtpserver | Id='775673610' User='' Connection closed for 192.168.239.1
+INFO  00:24:46,526 | james.smtpserver | Id='775673610' User='' Connection closed for 192.168.239.1

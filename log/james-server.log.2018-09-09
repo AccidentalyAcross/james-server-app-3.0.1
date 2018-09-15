@@ -1,0 +1,13 @@
+INFO  16:16:06,441 | org.apache.james.container.spring.context.JamesServerApplicationContext | Closing org.apache.james.container.spring.context.JamesServerApplicationContext@7dd1d794: startup date [Sat Sep 01 10:42:19 CST 2018]; root of context hierarchy
+INFO  16:16:06,666 | james.imapserver | Dispose IMAP Service
+INFO  16:16:06,728 | james.imapserver | Dispose IMAP Service done
+INFO  16:16:06,728 | james.pop3server | Dispose POP3 Service
+INFO  16:16:06,741 | james.pop3server | Dispose POP3 Service done
+INFO  16:16:06,741 | james.lmtpserver | Dispose LMTP Service
+INFO  16:16:06,743 | james.lmtpserver | Dispose LMTP Service done
+INFO  16:16:06,743 | james.smtpserver | Dispose SMTP Service
+INFO  16:16:06,766 | james.smtpserver | Dispose SMTP Service done
+INFO  16:16:06,766 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler dispose...
+INFO  16:16:06,769 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler thread shutdown completed.
+INFO  16:16:06,947 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-2
+INFO  16:16:06,947 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-1

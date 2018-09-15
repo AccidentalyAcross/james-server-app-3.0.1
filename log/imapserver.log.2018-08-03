@@ -1,0 +1,10 @@
+INFO  00:00:50,888 | james.imapserver | Dispose IMAP Service
+INFO  00:00:50,900 | james.imapserver | Dispose IMAP Service done
+INFO  00:12:31,180 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  00:12:31,181 | james.imapserver | IMAP Service is running on: Accidentaly
+INFO  00:12:31,183 | james.imapserver | IMAP Service handler hello name is: Accidentaly
+INFO  00:12:31,184 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  00:12:31,185 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  00:12:31,212 | james.imapserver | Init IMAP Service done
+INFO  00:24:46,858 | james.imapserver | ID=1531335857 Connection established from 192.168.239.1
+INFO  00:24:47,371 | james.imapserver | ID=1531335857 Connection closed for 192.168.239.1

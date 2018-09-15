@@ -1,0 +1,21 @@
+INFO  22:06:16,802 | james.pop3server | Id='-1366588042' User='' Connection established from 127.0.0.1
+INFO  22:06:17,161 | james.pop3server | Id='1353849203' User='' Connection established from 127.0.0.1
+INFO  22:06:17,163 | james.pop3server | Id='-1366588042' User='qnm123456@mdkf.com' Connection closed for 127.0.0.1
+INFO  22:06:17,222 | james.pop3server | Id='-1363955450' User='' Connection established from 127.0.0.1
+INFO  22:06:17,233 | james.pop3server | Id='-1363955450' User='qwe123456@mdfk.com' Connection closed for 127.0.0.1
+INFO  22:06:17,233 | james.pop3server | Id='-205799017' User='' Connection established from 127.0.0.1
+INFO  22:06:17,439 | james.pop3server | Id='1353849203' User='qnm123456' Connection closed for 127.0.0.1
+INFO  22:06:17,439 | james.pop3server | Id='-205799017' User='qwe123456' Connection closed for 127.0.0.1
+INFO  22:08:20,337 | org.apache.james.container.spring.context.JamesServerApplicationContext | Closing org.apache.james.container.spring.context.JamesServerApplicationContext@69336ff2: startup date [Wed Aug 29 21:46:32 CST 2018]; root of context hierarchy
+INFO  22:08:20,539 | james.imapserver | Dispose IMAP Service
+INFO  22:08:20,579 | james.imapserver | Dispose IMAP Service done
+INFO  22:08:20,581 | james.pop3server | Dispose POP3 Service
+INFO  22:08:20,588 | james.pop3server | Dispose POP3 Service done
+INFO  22:08:20,588 | james.lmtpserver | Dispose LMTP Service
+INFO  22:08:20,621 | james.lmtpserver | Dispose LMTP Service done
+INFO  22:08:20,622 | james.smtpserver | Dispose SMTP Service
+INFO  22:08:20,632 | james.smtpserver | Dispose SMTP Service done
+INFO  22:08:20,632 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler dispose...
+INFO  22:08:20,635 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler thread shutdown completed.
+INFO  22:08:20,688 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-2
+INFO  22:08:20,689 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-1

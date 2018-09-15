@@ -1,0 +1,12 @@
+INFO  21:40:34,811 | james.domainlist | Set autodetect to: true
+INFO  21:40:34,812 | james.domainlist | Set autodetectIP to: true
+INFO  22:19:55,028 | james.domainlist | Set autodetect to: true
+INFO  22:19:55,029 | james.domainlist | Set autodetectIP to: true
+INFO  22:21:14,078 | james.domainlist | Set autodetect to: true
+INFO  22:21:14,078 | james.domainlist | Set autodetectIP to: true
+INFO  22:31:41,142 | james.domainlist | Set autodetect to: true
+INFO  22:31:41,142 | james.domainlist | Set autodetectIP to: true
+INFO  23:45:44,297 | james.domainlist | Local host is: 192.168.239.1
+ERROR 23:45:44,308 | james.domainlist | Cannot get IP address(es) for qinxf.com
+INFO  00:12:27,021 | james.domainlist | Set autodetect to: true
+INFO  00:12:27,023 | james.domainlist | Set autodetectIP to: true

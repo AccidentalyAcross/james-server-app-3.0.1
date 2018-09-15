@@ -1,0 +1,8 @@
+INFO  22:08:55,713 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  22:08:55,713 | james.smtpserver | SMTP Service is running on: Accidentaly
+INFO  22:08:55,713 | james.smtpserver | SMTP Service handler hello name is: Accidentaly
+INFO  22:08:55,713 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  22:08:55,713 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  22:08:55,713 | james.smtpserver | This SMTP server does not require authentication.
+INFO  22:08:55,713 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  22:08:56,620 | james.smtpserver | Init SMTP Service done

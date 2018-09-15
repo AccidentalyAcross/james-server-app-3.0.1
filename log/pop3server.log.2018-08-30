@@ -1,0 +1,10 @@
+INFO  22:06:16,802 | james.pop3server | Id='-1366588042' User='' Connection established from 127.0.0.1
+INFO  22:06:17,161 | james.pop3server | Id='1353849203' User='' Connection established from 127.0.0.1
+INFO  22:06:17,163 | james.pop3server | Id='-1366588042' User='qnm123456@mdkf.com' Connection closed for 127.0.0.1
+INFO  22:06:17,222 | james.pop3server | Id='-1363955450' User='' Connection established from 127.0.0.1
+INFO  22:06:17,233 | james.pop3server | Id='-1363955450' User='qwe123456@mdfk.com' Connection closed for 127.0.0.1
+INFO  22:06:17,233 | james.pop3server | Id='-205799017' User='' Connection established from 127.0.0.1
+INFO  22:06:17,439 | james.pop3server | Id='1353849203' User='qnm123456' Connection closed for 127.0.0.1
+INFO  22:06:17,439 | james.pop3server | Id='-205799017' User='qwe123456' Connection closed for 127.0.0.1
+INFO  22:08:20,581 | james.pop3server | Dispose POP3 Service
+INFO  22:08:20,588 | james.pop3server | Dispose POP3 Service done

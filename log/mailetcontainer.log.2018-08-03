@@ -1,0 +1,69 @@
+INFO  00:00:50,930 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler dispose...
+INFO  00:00:50,934 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler thread shutdown completed.
+INFO  00:00:50,956 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-2
+INFO  00:00:50,962 | james.mailspooler | Stop org.apache.james.mailetcontainer.impl.JamesMailSpooler : dequeuer-1
+WARN  00:12:28,677 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  00:12:28,787 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:28,807 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  00:12:28,816 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  00:12:28,823 | james.mailprocessor | Mailet Null instantiated.
+INFO  00:12:28,829 | james.mailprocessor | Matcher HasMailAttribute=spamChecked instantiated.
+INFO  00:12:28,837 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:28,839 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:28,858 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  00:12:28,866 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  00:12:28,867 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:28,869 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:28,871 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:29,247 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,303 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:29,355 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  00:12:29,364 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  00:12:29,365 | james.mailprocessor | Matcher HasMailAttribute=org.apache.james.SMIMECheckSignature instantiated.
+INFO  00:12:29,366 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  00:12:29,368 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,389 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  00:12:29,395 | james.mailprocessor | Matcher SenderIsLocal instantiated.
+INFO  00:12:29,494 | james.mailprocessor | Mailet ToSenderFolder instantiated.
+INFO  00:12:29,500 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  00:12:29,532 | james.mailprocessor | Mailet Sieve instantiated.
+INFO  00:12:29,533 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  00:12:29,539 | james.mailprocessor | Mailet AddDeliveredToHeader instantiated.
+INFO  00:12:29,540 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  00:12:29,551 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  00:12:29,558 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  00:12:29,559 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:29,607 | james.mailetcontext | Authorized addresses: [127.0.0.1/255.255.255.255]
+INFO  00:12:29,607 | james.mailprocessor | Matcher RemoteAddrNotInNetwork=127.0.0.1 instantiated.
+INFO  00:12:29,609 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  00:12:29,610 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,707 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  00:12:29,901 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,908 | james.mailprocessor | Mailet MetricsMailet instantiated.
+INFO  00:12:29,910 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,928 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  00:12:29,931 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:29,947 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:29,997 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,018 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:30,051 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,055 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  00:12:30,056 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  00:12:30,060 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  00:12:30,062 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,064 | james.mailprocessor | Mailet Null instantiated.
+INFO  00:12:30,119 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,134 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:30,158 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,175 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  00:12:30,239 | james.mailprocessor | Matcher All instantiated.
+INFO  00:12:30,268 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  00:12:30,307 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  00:12:30,307 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  00:12:30,313 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  00:12:30,315 | james.mailspooler | Queue=MailQueue:spool
+INFO  00:12:30,316 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  00:12:30,330 | james.mailspooler | Queue=MailQueue:spool
+INFO  00:14:50,884 | james.mailetcontext | Local delivery with ToSenderFolder mailet for mail Mail1533226490081-10693ba9-8e5c-4078-80f0-e7ae8b54c74b with sender root@qinxf.com in folder Sent
+INFO  00:16:49,407 | james.mailetcontext | Local delivery with ToSenderFolder mailet for mail Mail1533226609298-a83e304a-dc56-4ff8-b9cb-381872d729ab with sender admin@qinxf.com in folder Sent
+INFO  00:17:31,351 | james.mailetcontext | Local delivery with ToSenderFolder mailet for mail Mail1533226651228-b3053ade-a335-417f-8ad9-9a56781038ce with sender root@qinxf.com in folder Sent

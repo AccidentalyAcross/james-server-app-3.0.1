@@ -1,0 +1,40 @@
+Received: from Accidentaly (EHLO Accidentaly) ([192.168.239.1])
+          by Accidentaly (JAMES SMTP Server ) with ESMTP ID -1505186109
+          for <root@qinxf.com>;
+          Thu, 02 Aug 2018 23:37:09 +0800 (CST)
+Date: Thu, 2 Aug 2018 23:37:00 +0800
+From: "admin@qinxf.com" <admin@qinxf.com>
+To: root <root@qinxf.com>
+Subject: 111111
+X-Priority: 3
+X-Has-Attach: no
+X-Mailer: Foxmail 7.2.9.156[cn]
+Mime-Version: 1.0
+Message-ID: <201808022336578419253@qinxf.com>
+Content-Type: multipart/alternative;
+	boundary="----=_001_NextPart810458807728_=----"
+
+This is a multi-part message in MIME format.
+
+------=_001_NextPart810458807728_=----
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: base64
+
+DQoxMTExMTExMTExMTExDQoNCg0KYWRtaW5AcWlueGYuY29tDQo=
+
+------=_001_NextPart810458807728_=----
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charse=
+t=3Dus-ascii"><style>body { line-height: 1.5; }body { font-size: 10.5pt; f=
+ont-family: 'Microsoft YaHei UI'; color: rgb(0, 0, 0); line-height: 1.5; }=
+</style></head><body>=0A<div><span></span><br></div>=0A<div>1111111111111<=
+/div><hr style=3D"width: 210px; height: 1px;" color=3D"#b5c4df" size=3D"1"=
+ align=3D"left">=0A<div><span><div style=3D"MARGIN: 10px; FONT-FAMILY: ver=
+dana; FONT-SIZE: 10pt"><div>admin@qinxf.com</div></div></span></div>=0A</b=
+ody></html>
+------=_001_NextPart810458807728_=------
+

@@ -1,0 +1,62 @@
+WARN  10:45:11,484 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  10:45:12,266 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:12,328 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  10:45:12,328 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  10:45:12,344 | james.mailprocessor | Mailet Null instantiated.
+INFO  10:45:12,344 | james.mailprocessor | Matcher HasMailAttribute=spamChecked instantiated.
+INFO  10:45:12,375 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  10:45:12,375 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:12,469 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  10:45:12,484 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  10:45:12,484 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  10:45:12,484 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:12,484 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  10:45:13,594 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:13,818 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  10:45:13,912 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  10:45:13,912 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  10:45:13,912 | james.mailprocessor | Matcher HasMailAttribute=org.apache.james.SMIMECheckSignature instantiated.
+INFO  10:45:13,927 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  10:45:13,927 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:13,974 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  10:45:13,990 | james.mailprocessor | Matcher SenderIsLocal instantiated.
+INFO  10:45:14,537 | james.mailprocessor | Mailet ToSenderFolder instantiated.
+INFO  10:45:14,537 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  10:45:14,646 | james.mailprocessor | Mailet Sieve instantiated.
+INFO  10:45:14,646 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  10:45:14,662 | james.mailprocessor | Mailet AddDeliveredToHeader instantiated.
+INFO  10:45:14,662 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  10:45:14,693 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  10:45:14,693 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  10:45:14,709 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  10:45:14,880 | james.mailetcontext | Authorized addresses: [127.0.0.1/255.255.255.255]
+INFO  10:45:14,880 | james.mailprocessor | Matcher RemoteAddrNotInNetwork=127.0.0.1 instantiated.
+INFO  10:45:14,896 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  10:45:14,896 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:15,271 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  10:45:15,943 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:15,943 | james.mailprocessor | Mailet MetricsMailet instantiated.
+INFO  10:45:15,943 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:15,974 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  10:45:15,990 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:15,990 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  10:45:16,115 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:16,146 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  10:45:16,240 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:16,240 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  10:45:16,240 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  10:45:16,240 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  10:45:16,255 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:16,255 | james.mailprocessor | Mailet Null instantiated.
+INFO  10:45:16,349 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:16,380 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  10:45:16,427 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:16,443 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  10:45:16,490 | james.mailprocessor | Matcher All instantiated.
+INFO  10:45:16,537 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  10:45:16,615 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  10:45:16,615 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  10:45:16,708 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  10:45:16,708 | james.mailspooler | Queue=MailQueue:spool
+INFO  10:45:16,708 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  10:45:16,708 | james.mailspooler | Queue=MailQueue:spool

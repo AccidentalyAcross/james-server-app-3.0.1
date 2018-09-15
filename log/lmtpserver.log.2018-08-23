@@ -1,0 +1,3 @@
+INFO  21:37:36,511 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  22:36:08,064 | james.lmtpserver | Dispose LMTP Service
+INFO  22:36:08,065 | james.lmtpserver | Dispose LMTP Service done
