@@ -47,7 +47,7 @@
 <domainlist class="org.apache.james.domainlist.jpa.JPADomainList">
    <autodetect>true</autodetect>
    <autodetectIP>true</autodetectIP>
-   <defaultDomain>localhost</defaultDomain>
+   <defaultDomain>188.iq@com</defaultDomain>
 </domainlist>
 
 <!-- XML based implementation for DomainList -->
